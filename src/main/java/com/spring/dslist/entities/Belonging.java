@@ -20,7 +20,7 @@ public class Belonging {
 
     public Belonging(Game game, GameList gameList, Integer position) {
         belongingPK.setGame(game);
-        belongingPK.setGameList(gameList);
+        belongingPK.setList(gameList);
         this.position = position;
     }
 
